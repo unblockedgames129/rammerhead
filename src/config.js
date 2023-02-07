@@ -6,7 +6,7 @@ module.exports = {
 
     bindingAddress: '0.0.0.0',
     port: 8080,
-    crossDomainPort: 8080,
+    crossDomainPort: 8081,
     publicDir: path.join(__dirname, '../public'), // set to null to disable
 
     // ssl object is either null or { key: fs.readFileSync('path/to/key'), cert: fs.readFileSync('path/to/cert') }
